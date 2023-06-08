@@ -12,3 +12,4 @@ app.get("/", async (req: Request, res: Response) => {
 
     res.json(data);
   } catch (err: any) {
+    res.status(500).json({ error: err.message });
