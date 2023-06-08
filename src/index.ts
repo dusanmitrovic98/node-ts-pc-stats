@@ -3,3 +3,4 @@ import { Systeminformation } from "systeminformation";
 
 import getSystemInfo from "./modules/pc-stats.js";
 
+const app = express();
