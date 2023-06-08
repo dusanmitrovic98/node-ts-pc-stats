@@ -13,3 +13,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     memLayout: "banks",
     mem: "total, free, used, active, available, buffcache, swaptotal, swapused, swapfree",
     osInfo: "platform, distro, release, codename, kernel, arch",
+    versions: "kernel, openssl, node, npm, yarn",
