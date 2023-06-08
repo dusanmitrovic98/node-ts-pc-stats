@@ -18,3 +18,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     diskLayout: "device, type, name, vendor, size",
     disksIO: "*",
   });
+}
