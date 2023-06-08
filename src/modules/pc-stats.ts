@@ -14,3 +14,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     mem: "total, free, used, active, available, buffcache, swaptotal, swapused, swapfree",
     osInfo: "platform, distro, release, codename, kernel, arch",
     versions: "kernel, openssl, node, npm, yarn",
+    networkInterfaces: "iface, ip4, ip6, mac, internal, virtual",
