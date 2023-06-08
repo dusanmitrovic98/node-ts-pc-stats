@@ -15,3 +15,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     osInfo: "platform, distro, release, codename, kernel, arch",
     versions: "kernel, openssl, node, npm, yarn",
     networkInterfaces: "iface, ip4, ip6, mac, internal, virtual",
+    diskLayout: "device, type, name, vendor, size",
