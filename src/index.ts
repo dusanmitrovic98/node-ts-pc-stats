@@ -16,3 +16,4 @@ app.get("/", async (req: Request, res: Response) => {
   }
 });
 
+app.listen(port, () => {
