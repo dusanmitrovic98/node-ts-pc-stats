@@ -11,3 +11,4 @@ app.get("/", async (req: Request, res: Response) => {
     const data: Systeminformation.SystemData = await getSystemInfo();
 
     res.json(data);
+  } catch (err: any) {
