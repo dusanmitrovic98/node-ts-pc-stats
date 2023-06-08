@@ -10,3 +10,4 @@ app.get("/", async (req: Request, res: Response) => {
   try {
     const data: Systeminformation.SystemData = await getSystemInfo();
 
+    res.json(data);
