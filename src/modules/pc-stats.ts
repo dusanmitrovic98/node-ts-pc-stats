@@ -20,3 +20,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
   });
 }
 
+export default getSystemInfo;
