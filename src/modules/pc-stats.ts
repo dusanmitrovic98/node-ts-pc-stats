@@ -6,3 +6,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     bios: "vendor, version, releaseDate",
     baseboard: "manufacturer, model",
     chassis: "manufacturer, type",
+    cpu: "manufacturer, brand, speed, cores, physicalCores, processors",
