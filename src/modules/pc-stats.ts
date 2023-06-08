@@ -17,3 +17,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     networkInterfaces: "iface, ip4, ip6, mac, internal, virtual",
     diskLayout: "device, type, name, vendor, size",
     disksIO: "*",
+  });
