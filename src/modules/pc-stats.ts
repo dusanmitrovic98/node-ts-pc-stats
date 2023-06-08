@@ -11,3 +11,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
       "manufacturer, type, currentCapacity, designedCapacity, isCharging",
     graphics: "controllers",
     memLayout: "banks",
+    mem: "total, free, used, active, available, buffcache, swaptotal, swapused, swapfree",
