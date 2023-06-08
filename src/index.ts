@@ -1,5 +1,21 @@
-import { moduleHelloWorld } from "./modules/module-helper.js";
-import { utilityHelloWorld } from "./utility/utility-helper.js";
+import express, { Request, Response } from "express";
+import { Systeminformation } from "systeminformation";
 
-moduleHelloWorld();
-utilityHelloWorld();
+import getSystemInfo from "./modules/pc-stats.js";
+
+const app = express();
+const port = 3000;
+
+app.get("/", async (req: Request, res: Response) => {
+  try {
+    const data: Systeminformation.SystemData = await getSystemInfo();
+
+    res.json(data);
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+});
