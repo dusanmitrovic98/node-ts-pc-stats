@@ -8,3 +8,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     chassis: "manufacturer, type",
     cpu: "manufacturer, brand, speed, cores, physicalCores, processors",
     battery:
+      "manufacturer, type, currentCapacity, designedCapacity, isCharging",
