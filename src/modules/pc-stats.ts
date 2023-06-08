@@ -10,3 +10,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     battery:
       "manufacturer, type, currentCapacity, designedCapacity, isCharging",
     graphics: "controllers",
+    memLayout: "banks",
