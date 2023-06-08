@@ -12,3 +12,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     graphics: "controllers",
     memLayout: "banks",
     mem: "total, free, used, active, available, buffcache, swaptotal, swapused, swapfree",
+    osInfo: "platform, distro, release, codename, kernel, arch",
