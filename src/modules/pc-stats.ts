@@ -19,3 +19,4 @@ async function getSystemInfo(): Promise<Systeminformation.SystemData> {
     disksIO: "*",
   });
 }
+
